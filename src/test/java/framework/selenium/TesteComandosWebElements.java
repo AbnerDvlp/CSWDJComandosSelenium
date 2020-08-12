@@ -15,8 +15,8 @@ public class TesteComandosWebElements {
 
 	public static void comandoWebElements() {
 
-		String pathDriver = "C:\\Users\\55519\\eclipse-workspace\\selenium\\chromedriver.exe ";
-		System.setProperty("webdriaver.chrome.driver", pathDriver);
+		String pathDriver = "C:\\Users\\55519\\eclipse-workspace\\SeleniumAulaComandos\\chromedriver.exe ";
+		System.setProperty("webdriver.chrome.driver", pathDriver);
 
 		driver = new ChromeDriver();
 
