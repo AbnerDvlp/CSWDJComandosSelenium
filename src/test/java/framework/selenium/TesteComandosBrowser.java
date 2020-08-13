@@ -14,7 +14,7 @@ public class TesteComandosBrowser {
 	public static void comandosBrowser() {
 		// seta o driver a ser usado parametros driver e caminho do driver
 
-		String pathDriver = "C:\\Users\\55519\\eclipse-workspace\\selenium\\chromedriver.exe ";
+		String pathDriver = "C:\\Users\\55519\\eclipse-workspace\\SeleniumAulaComandos\\chromedriver.exe ";
 		System.setProperty("webdriaver.chrome.driver", pathDriver);
 
 		driver = new ChromeDriver();
